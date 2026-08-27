@@ -203,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m22/proprietary/vendor/etc/mercury.json:$(TARGET_COPY_OUT_VENDOR)/etc/mercury.json \
     vendor/samsung/m22/proprietary/vendor/etc/SetMultiCal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/SetMultiCal.bin \
     vendor/samsung/m22/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
-    vendor/samsung/m22/proprietary/vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml \
     vendor/samsung/m22/proprietary/vendor/firmware/aw8896_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_cfg.bin \
     vendor/samsung/m22/proprietary/vendor/firmware/aw8896_fw_e.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_fw_e.bin \
     vendor/samsung/m22/proprietary/vendor/firmware/aw8896_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_reg.bin \
@@ -403,3 +402,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m22/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
     vendor/samsung/m22/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
+PRODUCT_PACKAGES += \
+    nxp.android.hardware.nfc@1.2-service.xml
